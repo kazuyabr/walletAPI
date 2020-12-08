@@ -1,0 +1,49 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-17638bf8533-4e702243051236b2": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3307",
+				"url": "jdbc:mysql://localhost:3307/",
+				"home": "MySQL Binaries",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		},
+		"mysql5-17638c009ef-570bd967517fd152": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "localhost",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "MySQL Binaries",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
